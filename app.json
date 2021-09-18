@@ -1,0 +1,39 @@
+{
+    "name": "Video Stream",
+    "description": "Video Stream Telegram Bot",
+    "keywords": [
+        "Video Stream ",
+        "pytgcalss"
+    ],
+    "repository": "https://github.com/Dev3yad/videostream1",
+    "env": {
+        "CHAT": {
+            "description": "اسم مستخدم القناة أو المجموعة مع @",
+            "value": ""
+         },
+        "SESSION_NAME": {
+            "description": "كود التيرميكس",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "ايبي ايدي my.telegram.org ",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش my.telegram.org ",
+            "value": ""
+        },
+        "TOKEN": {
+            "description": "توكن البوت @BotFather",
+            "value": ""
+        },
+        "ADMIN": {
+            "description":"الادمن"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
